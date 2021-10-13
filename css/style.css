@@ -3,4 +3,109 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+
+/* comuni */
+img{
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    width: 70%;
+    margin: auto;  
+    left: 15%;
+    right: 15%;
+}
+
+.jumbo{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/jumbo.png);
+    height: 700px;
+}
+
+nav{
+    padding-top: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-logo{
+    width: 20%;
+    float: left;
+}
+
+.logo{
+    vertical-align: middle;
+    width: 200px;
+    
+}
+
+.col-centrale{
+    line-height: 50px;
+    width: 60%;
+    float: left;
+    
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.col-centrale ul{
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: white;
+    display: inline-block;
+    border-radius: 20px
+
+}
+
+.btn-accedi{   
+    margin-top: 10px;
+    display: inline-block;
+    background-color: white;
+    padding: 5px 15px;
+}
+
+.col-accedi{
+    
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+.text h1{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 300px;
+
+}
+
+
+
+
